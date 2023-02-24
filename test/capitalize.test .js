@@ -17,5 +17,5 @@ test('Takes a string and returns it with the first character capitalized', () =>
 });
 
 test('Takes a number and return error', () => {
-    expect(capitalize.getString(2)).toEqual('Type error, no a string');
+    expect(capitalize.getString(2)).toEqual('Type error, not a string');
 });
